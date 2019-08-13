@@ -25,21 +25,21 @@
                   <Font name="Do Hyeon Regular" size="19.0" />
                </font>
             </Label>
-            <TextField fx:id="nameField" alignment="CENTER" layoutX="39.0" layoutY="74.0" prefHeight="37.0" prefWidth="166.0" promptText="Введіть ім'я" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-background-color: #67D3AA; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2);">
+            <TextField fx:id="nameField" alignment="CENTER" layoutX="39.0" layoutY="74.0" prefHeight="37.0" prefWidth="166.0" promptText="Name" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-background-color: #67D3AA; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2);">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <TextField fx:id="snameField" alignment="CENTER" layoutX="40.0" layoutY="129.0" prefHeight="37.0" prefWidth="166.0" promptText="Введіть прізвище" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-background-color: #67D3AA; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2);">
+            <TextField fx:id="snameField" alignment="CENTER" layoutX="40.0" layoutY="129.0" prefHeight="37.0" prefWidth="166.0" promptText="Last name" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-background-color: #67D3AA; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2);">
                <font>
                   <Font size="16.0" />
                </font>
             </TextField>
-            <TextField fx:id="ageField" layoutX="39.0" layoutY="190.0" prefHeight="25.0" prefWidth="54.0" promptText="Вік" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-background-color: #67D3AA; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2);">
+            <TextField fx:id="ageField" layoutX="39.0" layoutY="190.0" prefHeight="25.0" prefWidth="54.0" promptText="Age" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-background-color: #67D3AA; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2);">
                <font>
                   <Font size="17.0" />
                </font></TextField>
-            <DatePicker fx:id="periodField" editable="false" layoutX="275.0" layoutY="130.0" prefHeight="10.0" prefWidth="174.0" promptText="Введіть період оплати" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-control-inner-background: #67D3AA; -fx-highlight-text-fill: #fff; -fx-highlight-fill: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2); -fx-padding: 2;" />
+            <DatePicker fx:id="periodField" editable="false" layoutX="275.0" layoutY="130.0" prefHeight="10.0" prefWidth="174.0" promptText="Payment period" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-control-inner-background: #67D3AA; -fx-highlight-text-fill: #fff; -fx-highlight-fill: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2); -fx-padding: 2;" />
             <Button fx:id="studentsBaseBtn" layoutX="528.0" layoutY="281.0" mnemonicParsing="false" onAction="#showOtherWindow" prefHeight="35.0" prefWidth="166.0" style="-fx-background-color: #f39c63; -fx-background-radius: 10; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2);" text="Base of students" textFill="WHITE" AnchorPane.bottomAnchor="56.0" AnchorPane.rightAnchor="26.0">
                <font>
                   <Font name="Do Hyeon Regular" size="18.0" />
@@ -51,7 +51,7 @@
                   <Font name="Do Hyeon Regular" size="21.0" />
                </font>
             </Button>
-            <ComboBox fx:id="comboCourse" layoutX="273.0" layoutY="74.0" prefHeight="31.0" prefWidth="174.0" promptText="Введіть назву курсу" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-background-color: #67D3AA; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2); -fx-highlight-text-fill: #fff; -fx-highlight-fill: #fff; -fx-color: #fff; -fx-padding: 2;" />
+            <ComboBox fx:id="comboCourse" layoutX="273.0" layoutY="74.0" prefHeight="31.0" prefWidth="174.0" promptText="Course name" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-prompt-text-fill: #fff; -fx-text-fill: #fff; -fx-background-color: #67D3AA; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2); -fx-highlight-text-fill: #fff; -fx-highlight-fill: #fff; -fx-color: #fff; -fx-padding: 2;" />
             <ComboBox fx:id="sexBox" layoutX="114.0" layoutY="192.0" prefHeight="31.0" prefWidth="92.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2); -fx-background-color: #67D3AA; -fx-padding: 2;" />
             <Label layoutX="273.0" layoutY="190.0" prefHeight="40.0" prefWidth="124.0" style="-fx-background-color: #67D3AA; -fx-border-radius: 10; -fx-background-radius: 10; -fx-padding: 6; -fx-text-fill: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 0, 0, 1.5, 2);" text="Sum: ">
                <font>

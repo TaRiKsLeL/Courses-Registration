@@ -155,8 +155,8 @@ public class Controller {
                     Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
 
                     alert.setTitle("Warning");
-                    alert.setHeaderText("Людина з таким іменем та курсом уже присутня");
-                    alert.setContentText("Замінити дані?");
+                    alert.setHeaderText("Student with such a name and course is already added");
+                    alert.setContentText("Change data?");
 
                     Optional<ButtonType> result = alert.showAndWait();
 
